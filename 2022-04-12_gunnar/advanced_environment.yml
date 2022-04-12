@@ -1,0 +1,9 @@
+# Note: Need to install pycurrents manually into this environment
+name: advanced_environment
+dependencies:
+  - python=3.9
+  - numpy
+  - mercurial
+  - pip
+  - pip:
+    - -r requirements.txt
