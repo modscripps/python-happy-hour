@@ -1,0 +1,11 @@
+matplotlib
+numpy
+scipy
+xarray
+netcdf4
+gsw
+tqdm
+pdoc
+watchmagic
+hg+https://currents.soest.hawaii.edu/hgstage/pycurrents/#egg=pycurrents
+git+https://github.com/gunnarvoet/gvpy.git#egg=gvpy

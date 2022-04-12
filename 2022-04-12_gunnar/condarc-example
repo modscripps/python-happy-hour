@@ -1,0 +1,30 @@
+# vi: ft=yaml
+channel_priority: strict
+channels:
+    - conda-forge
+    - defaults
+
+show_channel_urls: True
+
+# pip will always be installed with python
+add_pip_as_python_dependency: True
+
+# pip_interop_enabled: True
+auto_activate_base: False
+report_errors: False
+
+# when using "conda create" for envs these packages will always be installed
+create_default_packages:
+    - blas=*=openblas
+    - ipykernel
+    - ipdb
+    - ipympl
+    - jupyter
+    - jupyter_contrib_nbextensions
+    - notebook
+    - nbconvert
+    - jupytext
+    - pip
+    # - pip:
+    #     - watchmagic
+    #     - jupytext
