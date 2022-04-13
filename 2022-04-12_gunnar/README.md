@@ -53,3 +53,5 @@ There is also `micromamba` as a full conda replacement but I have not tried it y
 ## alternatives to conda environments
 [pipenv](https://pipenv.pypa.io/en/latest/) ?
 
+## auto-activate conda environments
+https://janosh.dev/blog/conda-auto-env
